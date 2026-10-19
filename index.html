@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vectra Contábil — Soluções Contábeis &amp; Gestão Financeira</title>
+  
+  <!-- Fontes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Estilos Customizados -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- COTAÇÕES DA BOLSA DE VALORES EM TEMPO REAL -->
+  <div class="ticker-bar" id="tickerBar">
+    <div class="ticker-title">
+      <i class="fa-solid => fa-chart-line"></i>
+      <span>MERCADO AO VIVO</span>
+    </div>
+    <div class="ticker-track" id="tickerTrack">
+      <div class="ticker-item"><span class="symbol">IBOVESPA</span><span class="value">A carregar...</span></div>
+      <div class="ticker-item"><span class="symbol">USD/BRL</span><span class="value">A carregar...</span></div>
+      <div class="ticker-item"><span class="symbol">EUR/BRL</span><span class="value">A carregar...</span></div>
+      <div class="ticker-item"><span class="symbol">BTC/BRL</span><span class="value">A carregar...</span></div>
+    </div>
+  </div>
+
+  <!-- NAVEGAÇÃO / CABEÇALHO -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="200" height="147" alt="Vectra Logo">
+  <!-- Asa Esquerda (Azul Aço / Claro) -->
+  <path d="M 150,110 Q 90,80 40,25 C 90,30 110,65 145,100 Z" fill="#6B85AC"/>
+  
+  <!-- Asa Direita (Azul Marinho / Escuro) -->
+  <path d="M 150,110 Q 210,80 260,25 C 210,30 190,65 155,100 Z" fill="#1B2B50"/>
+  
+  <!-- Gota Central (Azul Marinho / Escuro) -->
+  <path d="M 150,110 Q 150,150 150,190 C 142,160 142,130 150,110 Z" fill="#1B2B50"/>
+  
+  <!-- Texto "VECTRA" -->
+  <text x="150" y="210" text-anchor="middle" font-family="'Space Grotesk', 'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="28" fill="#1C2541" letter-spacing="4">VECTRA</text>
+  
+  <!-- Linha Inferior do Logo -->
+  <line x1="90" y1="218" x2="210" y2="218" stroke="#CBD5E1" stroke-width="1.5" />
+</svg>
+      </a>
+
+      <na
+        <a href="#ínicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Canais</a>
+        <a href="#inscreva-se" class="btn-nav">Fale com um consultor</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SEÇÃO HERO -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="hero-badge">Mais de 30 Anos de Excelência</span>
+        <h1>Project <span>Vectra Contábil</span></h1>
+        <p>Arquitetura financeira de alta performance, inteligência tributária e gestão estratégica para impulsionar o seu negócio com segurança absoluta.</p>
+        <div class="hero-actions">
+          <a href="#inscreva-se" class="btn-primary">Iniciar Diagnóstico Gratuito <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#servicos" class="btn-secondary">Explorar Soluções</a>
+        </div>
+      </div>
+      
+      <div class="hero-card-preview">
+        <div class="glass-card main-feature">
+          <i class="fa-solid fa-shield-halved feature-icon"></i>
+          <div>
+            <h4>Conformidade &amp; Performance</h4>
+            <p>Mitigação de riscos fiscais com inteligência consultiva contínua.</p>
+          </div>
+        </div>
+        <div class="glass-card stat-feature">
+          <div class="stat-number">99.8%</div>
+          <div class="stat-label">Satisfação de Clientes Corporativos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREA DE 8 CARDS DE SERVIÇOS -->
+  <section class="services-section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Especialidades</span>
+        <h2>Área de Serviços Contábeis</h2>
+        <p>Soluções integradas e personalizadas para a escala da sua empresa.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h3>Contabilidade Consultiva</h3>
+          <p>Análise profunda de dados contábeis para apoio estratégico nas tomadas de decisão e crescimento sustentável.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3>Planejamento &amp; Gestão Tributária</h3>
+          <p>Otimização legal da carga fiscal da sua empresa com diagnósticos periódicos e elisão fiscal segura.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-users-gear"></i></div>
+          <h3>DP &amp; Recursos Humanos</h3>
+          <p>Gestão completa da folha de pagamentos, obrigações trabalhistas, eSocial e benefícios com conformidade total.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-file-contract"></i></div>
+          <h3>Legalização &amp; Societário</h3>
+          <p>Abertura, alteração e encerramento de empresas, emissão de certidões e regularização perante órgãos públicos.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-vault"></i></div>
+          <h3>Serviços Adicionais / Especializados</h3>
+          <p>BPO Financeiro, avaliação de empresas (Valuation), recuperação de créditos e auditoria contábil.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-building-columns"></i></div>
+          <h3>Auditoria &amp; Compliance</h3>
+          <p>Revisão rigorosa das demonstrações financeiras e verificação de processos internos contra fraudes.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+          <h3>BPO Financeiro Integrado</h3>
+          <p>Terceirização completa das rotinas de contas a pagar, contas a receber, faturamento e conciliação bancária.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="service-card">
+          <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Gestão Internacional &amp; Transfer Pricing</h3>
+          <p>Assessoria para empresas com transações internacionais, remessas ao exterior e conformidade cambial.</p>
+          <a href="#inscreva-se" class="card-link">Saber mais <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- CANAIS DE CONTATO -->
